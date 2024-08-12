@@ -12,7 +12,7 @@ export default function Nav() {
       <MenuButton  className="md:hidden lg:hidden" >
         <img src={hamburgerMenu} alt="menu" className='w-10'/>
         </MenuButton>
-      <MenuItems anchor="bottom" className=" bg-black text-white text-center w-full h-svh">
+      <MenuItems anchor="bottom" className=" bg-black text-white text-center w-full h-svh text-xl">
         <MenuItem>
           <a className="block data-[focus]:bg-teal-300 p-10 data-[focus]:text-black font-bold" href="/about">
             About
