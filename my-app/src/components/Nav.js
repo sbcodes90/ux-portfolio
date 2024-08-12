@@ -6,7 +6,7 @@ export default function Nav() {
 
             <ul className='flex flex-row'>
                 <li className='flex-1'>Logo</li>
-               <div className=' flex flex-row gap-5'> <li>Work</li>
+               <div className=' flex flex-row gap-10'> <li>Work</li>
                 <li>Resume</li>
                 <li>Contact</li>
                 </div>
