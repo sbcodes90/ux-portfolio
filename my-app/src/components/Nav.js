@@ -1,6 +1,7 @@
 import React from 'react'
 import hamburgerMenu from "../icons/hamburger-menu.png"
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Link } from 'react-router-dom'
 
 export default function Nav() {
 
@@ -19,9 +20,9 @@ export default function Nav() {
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="block data-[focus]:bg-teal-300 p-10 data-[focus]:text-black font-bold" href="/work">
+          <Link to="/" className="block data-[focus]:bg-teal-300 p-10 data-[focus]:text-black font-bold" href="/work">
             Work
-          </a>
+          </Link>
         </MenuItem>
         <MenuItem>
           <a className="block data-[focus]:bg-teal-300 p-10 data-[focus]:text-black font-bold" href="/resume">
@@ -40,7 +41,9 @@ export default function Nav() {
           <div className='flex flex-row gap-10'>
           <li className='flex-1'>Logo</li>
             <li>About</li>
-            <li>Work</li>
+            <Link to="/" className="block data-[focus]:bg-teal-300 p-10 data-[focus]:text-black font-bold" href="/work">
+            Work
+          </Link>
             <li>Resume</li>
             <li>Contact</li>
           </div>
