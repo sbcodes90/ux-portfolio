@@ -4,10 +4,12 @@ import hhg from "../images/hhg.png";
 import hhg2 from "../images/hhg2.png";
 import  Nav  from "../components/Nav";
 import { Link } from 'react-router-dom';
+import header from "../images/header.png";
 
 export default function UxPage() {
   return (
     <>
+        <img src={header} alt="header" className='w-full' />
     <Nav />
     <div className='bg-white'>
     <header className="lg:text-right text-5xl tracking-widest text-center mt-10 mr-5">UX DESIGN PROJECTS</header>
