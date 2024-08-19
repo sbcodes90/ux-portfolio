@@ -26,6 +26,7 @@ export default function GoogleProjectPage() {
           <div className="pb-5 font-light">Figma</div>
           <div className="font-bold text-lg">Problem Statement</div>
           <div className="pb-5 font-light">Design a mobile app that will educate and provide solutions for users to decrease their risk for heart disease in the US.</div>
+          <div className="font-bold text-lg">The Design Process</div>
           <hr /> 
           <div className="font-semibold text-2xl pt-8">Research</div>
           <div className="font-light text-xl pt-3">Competitive Analysis</div>
@@ -40,9 +41,10 @@ export default function GoogleProjectPage() {
             How can our app stand out?
           </div>
           <img src={chart} alt="ca-chart" />
+          <hr />
           <div className="font-semibold text-2xl pt-8">Empathize: Learning about our users</div>
           <div className="font-light text-xl pt-3">Competitive Analysis</div>
-          <div className="pb-5 font-light">
+          <div className="pb-5 font-light pt-2">
             Some common questions to begin a UX competitive analysis are: Who is
             currently trying to solve this problem? How are they trying to solve
             the problem? What their main differentiator or unique value-add is
