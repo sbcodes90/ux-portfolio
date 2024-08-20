@@ -8,7 +8,7 @@ import UserProfile from "./UserProfile";
 export default function GoogleProjectPage() {
   return (
     <>
-    <div className="bg-slate-50 pb-20">
+    <div className="bg-rose-900 pb-10">
       <img src={header} alt="header" className="w-full" />
       <Nav />
       <div id="container" className="flex flex-col items-center bg-white">
@@ -46,7 +46,7 @@ export default function GoogleProjectPage() {
           <img src={chart} alt="ca-chart" />
         </section>
     </div>
-    <section className=" mx-72">
+    <section className="mb-20 mx-72">
     <div className="font-semibold text-2xl pt-20">Empathize: Learning about our users</div>
     <div className="font-light text-xl pt-3">User Interviews</div>
     <div className="pb-5 font-light pt-2">
