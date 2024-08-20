@@ -3,27 +3,20 @@ import user1 from "../images/user-1.png";
 
 function UserProfile() {
   return (
- 
-      <div className="flex flex-col-2  items-start bg-white shadow-xl ring-1 ring-black/5 p-20 rounded-3xl text-black mb-5">
-        <div className='w-full'>
-          <img src={user1} alt="user profile" />
-        </div>
-        <div className="ml-10 w-full">
-          <div>
-            <strong>Name: </strong> Megan
-          </div>
-          <div>
-            <strong>Age: </strong>25
-          </div>
-          <div>
-            <strong>Occupation: </strong>Grad student
-          </div>
-          <div className="pt-5">
-            <strong>Background:</strong>
-          </div>
-          
-      </div>
+    <>
+    <div className='flex flex-col justify-center shadow-2xl p-10 rounded-2xl'>
+    <img src={user1} alt="user profile" className='p-10' />
+    <div className='text-left pb-5'>
+      <div><strong>Name:</strong> Angel</div>
+      <div className='pt-3'><strong>Age:</strong> 27</div>
+      <div className='pt-3'><strong>Occupation:</strong>{' '}Grad Student & Caretaker</div>
+      <div className='pt-3'><strong>Background:</strong></div>
+      <div>Angel Rodriguez is a full time grad student and caretaker for her elderly grandmother.</div>
+
     </div>
+    </div>
+    
+  </>
   );
 }
 
