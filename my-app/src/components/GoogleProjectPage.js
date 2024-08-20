@@ -16,15 +16,15 @@ export default function GoogleProjectPage() {
       <img src={header} alt="header" className="w-full" />
       <Nav />
       <div id="container" className="flex flex-col items-center bg-white">
-      <div className="font-bold text-4xl p-10 text-black mt-20">
+      <div className="font-black text-3xl lg:text-4xl p-10 text-black mt-20">
             HeartHealthGlobal
           </div>
-          <div className="font-light text-3xl mx-72 text-center">A mobile app designed to educate and provide solutions for users
+          <div className="font-light lg:text-3xl mx-10 lg:mx-72 text-center">A mobile app designed to educate and provide solutions for users
             to decrease their risk for heart disease. 
           </div>
           <img src={mobilePics} alt="hhg" />
           </div>
-          <section className="items-start lg:mx-60 px-12 py-14 bg-white shadow-2xl rounded-3xl mt-16 mb-10">
+          <section className="items-start mx-10 lg:mx-60 px-12 py-14 bg-white shadow-2xl rounded-3xl mt-16 mb-10">
           <div className="font-bold text-lg">Timeline</div>
           <div className="pb-5 font-light">April 2024 - July 2024</div>
           <div className="font-bold text-lg">Role</div>
@@ -36,7 +36,7 @@ export default function GoogleProjectPage() {
           {/* <img src={chart} alt="ca-chart" /> */}
         </section>
     </div>
-    <section className="mb-20 mx-72">
+    <section className="mb-20 mx-12 lg:mx-72">
     <div className="font-semibold text-2xl pt-20">Problem Statement</div>
           <div className="pb-5 font-light">Design a mobile app that will educate and provide solutions for users to decrease their risk for heart disease in the US.</div>
           <div className="font-semibold text-2xl pt-8">My Design Process</div>

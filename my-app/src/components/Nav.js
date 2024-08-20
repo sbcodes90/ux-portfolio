@@ -14,7 +14,7 @@ export default function Nav() {
           </MenuButton>
           <MenuItems
             anchor="bottom"
-            className=" bg-black text-white text-center w-full h-svh text-xl"
+            className=" bg-black text-white text-center w-full h-svh text-lg"
           >
             <MenuItem>
               <a
