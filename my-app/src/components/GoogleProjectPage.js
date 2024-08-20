@@ -3,8 +3,11 @@ import Nav from "./Nav";
 import header from "../images/header.png";
 import mobilePics from "../images/hhg.png";
 import chart from "../images/chart.png";
+import UserProfile from "./UserProfile";
+
 export default function GoogleProjectPage() {
   return (
+    <>
     <div className="bg-slate-50 pb-20">
       <img src={header} alt="header" className="w-full" />
       <Nav />
@@ -41,22 +44,26 @@ export default function GoogleProjectPage() {
             How can our app stand out?
           </div>
           <img src={chart} alt="ca-chart" />
-          <hr />
-          <div className="font-semibold text-2xl pt-8">Empathize: Learning about our users</div>
-          <div className="font-light text-xl pt-3">Competitive Analysis</div>
-          <div className="pb-5 font-light pt-2">
-            Some common questions to begin a UX competitive analysis are: Who is
-            currently trying to solve this problem? How are they trying to solve
-            the problem? What their main differentiator or unique value-add is
-            for their business and products Did anyone try to solve it in the
-            past and fail? Why did they fail? Heart Disease in America is out of
-            control. There are many initiatives, and organizations that offer
-            websites and apps to educate users, but who is offering solutions?
-            How can our app stand out?
-          </div>
-         
         </section>
-        
     </div>
+    <section className=" mx-72">
+    <div className="font-semibold text-2xl pt-20">Empathize: Learning about our users</div>
+    <div className="font-light text-xl pt-3">User Interviews</div>
+    <div className="pb-5 font-light pt-2">
+      Some common questions to begin a UX competitive analysis are: Who is
+      currently trying to solve this problem? How are they trying to solve
+      the problem? What their main differentiator or unique value-add is
+      for their business and products Did anyone try to solve it in the
+      past and fail? Why did they fail? Heart Disease in America is out of
+      control. There are many initiatives, and organizations that offer
+      websites and apps to educate users, but who is offering solutions?
+      How can our app stand out?
+    </div>
+
+    <UserProfile />
+      <UserProfile />
+      <UserProfile />
+      </section>
+    </>
   );
 }
