@@ -7,7 +7,7 @@ import UserProfile from "./UserProfile";
 import logo from "../images/hhg-logo.png";
 import sitemap from "../images/sitemap.png";
 import wireframes from "../images/Wireframes.png";
-
+import prototype from "../images/hhg-prototype.png";
 
 export default function GoogleProjectPage() {
   return (
@@ -139,20 +139,14 @@ export default function GoogleProjectPage() {
     </section>
     <section>
       <div className="font-semibold text-2xl pt-10">Prototypes</div>
-    <div className="font-light text-xl pt-3">User Interviews</div>
-    <div className="pb-5 font-light pt-2">
-      Some common questions to begin a UX competitive analysis are: Who is
-      currently trying to solve this problem? How are they trying to solve
-      the problem? What their main differentiator or unique value-add is
-      for their business and products Did anyone try to solve it in the
-      past and fail? Why did they fail? Heart Disease in America is out of
-      control. There are many initiatives, and organizations that offer
-      websites and apps to educate users, but who is offering solutions?
-      How can our app stand out?
-    </div>
-    </section>
+    <div className="font-light text-xl pt-3">Clickable Mobile Prototype: Go Ahead click around!</div>
+    <iframe title="hhg" className="w-full h-screen" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F36Yy6UuTzh1H36rXo7Ua8w%2FHeartHealthGlobal-Design-Files%3Fnode-id%3D11-6%26t%3DDo5qr26Ihe5jK4iM-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D7%253A5%26starting-point-node-id%3D11%253A6" allowfullscreen />    
+    <div className="font-light text-xl pt-20 pb-9">Figma Screens</div>
+
+    <img src={prototype}  alt="mobile-prototype" />
+
+     </section>
       </section>
-      
     </>
   );
 }
