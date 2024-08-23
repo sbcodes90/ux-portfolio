@@ -8,6 +8,7 @@ import logo from "../images/hhg-logo.png";
 import sitemap from "../images/sitemap.png";
 import wireframes from "../images/Wireframes.png";
 import prototype from "../images/hhg-prototype.png";
+import { Link } from "react-router-dom";
 
 export default function GoogleProjectPage() {
   return (
@@ -121,8 +122,8 @@ export default function GoogleProjectPage() {
     </section>
     <section>
       <div className="font-semibold text-2xl pt-10">User Testing / Ideation Phase</div>
-    <div className="font-light text-xl pt-3">User Interviews</div>
-    <div className="pb-5 font-light pt-2">
+{/*     <div className="font-light text-xl pt-3">User Interviews</div>
+ */}    <div className="pb-5 font-light pt-2">
       Some common questions to begin a UX competitive analysis are: Who is
       currently trying to solve this problem? How are they trying to solve
       the problem? What their main differentiator or unique value-add is
@@ -141,10 +142,16 @@ export default function GoogleProjectPage() {
       <div className="font-semibold text-2xl pt-10">Prototypes</div>
     <div className="font-light text-xl pt-3">Clickable Mobile Prototype: Go Ahead click around!</div>
     <iframe title="hhg" className="w-full h-screen" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F36Yy6UuTzh1H36rXo7Ua8w%2FHeartHealthGlobal-Design-Files%3Fnode-id%3D11-6%26t%3DDo5qr26Ihe5jK4iM-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D7%253A5%26starting-point-node-id%3D11%253A6" allowfullscreen />    
-    <div className="font-light text-xl pt-20 pb-9">Figma Screens</div>
-
+      <div className="font-light text-xl pt-20 pb-5">Figma Screens:
+   
+        </div>
+   
     <img src={prototype}  alt="mobile-prototype" />
-
+    <div className="flex justify-center items-center p-20">
+    <button className="bg-black text-white px-10 py-3 rounded-3xl ml-5">
+      <Link target="_blank" className="text-xl" to="https://www.figma.com/design/36Yy6UuTzh1H36rXo7Ua8w/HeartHealthGlobal-Design-Files?node-id=7-5&t=n2xehB5eQlQ1hU28-1" >View More</Link>
+        </button>
+        </div>
      </section>
       </section>
     </>
