@@ -149,7 +149,7 @@ export default function GoogleProjectPage() {
     <img src={prototype}  alt="mobile-prototype" />
     <div className="flex justify-center items-center p-20">
     <button className="bg-black text-white px-10 py-3 rounded-3xl ml-5">
-      <Link target="_blank" className="text-xl" to="https://www.figma.com/design/36Yy6UuTzh1H36rXo7Ua8w/HeartHealthGlobal-Design-Files?node-id=7-5&t=n2xehB5eQlQ1hU28-1" >View More</Link>
+      <Link target="_blank" className="text-xl" to="https://www.figma.com/design/36Yy6UuTzh1H36rXo7Ua8w/HeartHealthGlobal-Design-Files?node-id=7-5&t=n2xehB5eQlQ1hU28-1" >Go to Figma</Link>
         </button>
         </div>
      </section>
