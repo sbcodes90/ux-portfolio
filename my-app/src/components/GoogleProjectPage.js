@@ -99,9 +99,8 @@ export default function GoogleProjectPage() {
     </div>
     </section>
     <section>
-      <div className="font-semibold text-2xl pt-10">Sketches</div>
-    <div className="font-light text-xl pt-3">User Interviews</div>
-    <div className="pb-5 font-light pt-2">
+      <div className="font-semibold text-2xl pt-5">Wireframes</div>
+      <div className="pb-5 font-light pt-2">
       Some common questions to begin a UX competitive analysis are: Who is
       currently trying to solve this problem? How are they trying to solve
       the problem? What their main differentiator or unique value-add is
@@ -111,17 +110,8 @@ export default function GoogleProjectPage() {
       websites and apps to educate users, but who is offering solutions?
       How can our app stand out?
     </div>
-    </section>
-    <section>
-      <div className="font-semibold text-2xl pt-10">Wireframes</div>
-    <div className="font-light text-xl pt-3">First Iteration</div>
-  <img src={wireframes} alt="wireframes" />
-  <div className="font-light text-xl pt-3">Second Iteration</div>
-  <img src={wireframes} alt="wireframes" />
-
-    </section>
-    <section>
-      <div className="font-semibold text-2xl pt-10">User Testing / Ideation Phase</div>
+      <section>
+      <div className="font-light text-xl pt-3">User Testing / Ideation Phase</div>
 {/*     <div className="font-light text-xl pt-3">User Interviews</div>
  */}    <div className="pb-5 font-light pt-2">
       Some common questions to begin a UX competitive analysis are: Who is
@@ -134,6 +124,13 @@ export default function GoogleProjectPage() {
       How can our app stand out?
     </div>
     </section>
+    <div className="font-light text-xl pt-3">First Iteration</div>
+  <img src={wireframes} alt="wireframes" />
+  <div className="font-light text-xl pt-3">Second Iteration</div>
+  <img src={wireframes} alt="wireframes" />
+
+    </section>
+ 
     <section>
       <div className="font-semibold text-2xl pt-10">Logo Design</div>
     <img src={logo} alt="hhg-logo" />
