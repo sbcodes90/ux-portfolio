@@ -27,7 +27,7 @@ export default function GoogleProjectPage() {
           </div>
           <section className="items-start mx-10 lg:mx-60 px-12 py-14 bg-white shadow-2xl rounded-3xl mt-16 mb-10">
           <div className="font-bold text-lg">Client:</div>
-          <div className="pb-5 font-light">United Nations Sustanabilty Initiative: Goal 3 Ensure healthy lives and promote well-being for all at all ages through Grow With Google X Mentor Me Collective</div>
+          <div className="pb-5 font-light">United Nations Sustainabilty Initiative: Goal 3 Ensure healthy lives and promote well-being for all at all ages through Grow With Google X Mentor Me Collective</div>
           <div className="font-bold text-lg">Timeline</div>
           <div className="pb-5 font-light">April 2024 - July 2024</div>
           <div className="font-bold text-lg">Role</div>
