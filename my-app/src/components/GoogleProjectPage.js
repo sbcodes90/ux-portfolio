@@ -20,7 +20,7 @@ export default function GoogleProjectPage() {
       <div className="font-bold text-xl lg:text-4xl p-10 text-black mt-20">
              HeartHealthGlobal
           </div>
-          <div className="font-light lg:text-2xl mx-10 lg:mx-72 text-center">A mobile app designed to decrease the mortality rates for people in the United States by educating and providing solutions for users
+          <div className="font-light lg:text-2xl mx-10 lg:mx-72 text-center">A mobile app designed to decrease the heart disease mortality rates for people in the United States by educating and providing solutions for users
             to decrease their risk for heart disease. 
           </div>
           <img src={mobilePics} alt="hhg" />
