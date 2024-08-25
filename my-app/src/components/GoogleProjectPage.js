@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import header from "../images/header.png";
 import mobilePics from "../images/hhg.png";
-import chart from "../images/chart.png";
+import compAnalysis from "../images/ca.png";
 import UserProfile from "./UserProfile";
 import logo from "../images/hhg-logo.png";
 import sitemap from "../images/sitemap.png";
@@ -75,14 +75,10 @@ export default function GoogleProjectPage() {
         <UserProfile />
         <div className="font-semibold text-2xl pt-8">Competitive Analysis</div>
         <div className="pt-2 pb-5 font-light">
-          Some common questions to begin a UX competitive analysis are: Who is
-          currently trying to solve this problem? How are they trying to solve
-          the problem? What their main differentiator or unique value-add is
-          for their business and products Did anyone try to solve it in the
-          past and fail? Why did they fail? Heart Disease in America is out of
-          control. There are many initiatives, and organizations that offer
-          websites and apps to educate users, but who is offering solutions?
-          How can our app stand out?
+        Understanding the importance of competitive analysis in the research process is crucial because it allows us to evaluate our brand/company compared to our competitors. It helps us identify opportunities for improving our user experience (UX) and recognize areas for improvement. For instance, comparing the overall ease of using our interface or the time it takes to complete tasks in comparison to other similar apps. How can we make our design and user experience stand out from competitors?
+        <div className="font-light text-xl pt-3">Results:</div>
+
+<img src={compAnalysis} alt="competitive-analysis" className="rounded-3xl bg-slate-50 p-5 mt-3" />
         </div>
         <section>
           <div className="font-semibold text-2xl pt-10">Logo Design</div>
