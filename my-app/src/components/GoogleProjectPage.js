@@ -26,7 +26,7 @@ export default function GoogleProjectPage() {
         <img src={header} alt="header" className="w-full" />
         <Nav />
         <div id="container" className="flex flex-col items-center bg-white">
-          <div className="font-bold text-xl lg:text-4xl p-10 text-black mt-20">
+          <div className="font-bold text-2xl lg:text-4xl p-10 text-black lg:mt-20">
             HeartHealthGlobal
           </div>
           <div className="font-light lg:text-2xl mx-10 lg:mx-72 text-center">
