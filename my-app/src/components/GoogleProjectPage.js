@@ -15,7 +15,7 @@ import designProcess from "../images/uxdesignprocess.png";
 import staziJourney from "../images/stazi-user-journey.png";
 import eduardo from "../images/Eduardo.png";
 import stazi from "../images/Stazi.png";
-
+import newLogo from "../images/new-hhg-logo.png";
 
 
 
@@ -26,9 +26,9 @@ export default function GoogleProjectPage() {
         <img src={header} alt="header" className="w-full" />
         <Nav />
         <div id="container" className="flex flex-col items-center bg-white">
-          <div className="font-bold text-2xl lg:text-4xl p-10 text-black lg:mt-20">
-            HeartHealthGlobal
-          </div>
+        
+            <img src={newLogo} alt="hhg-brand-logo" className="py-12 px-96" />
+      
           <div className="font-light lg:text-2xl mx-10 lg:mx-72 text-center">
             A mobile app designed to provide a smooth and effective user experience, aiming to decrease heart disease mortality rates for people of all ages in the United States by educating and providing solutions.
           </div>
