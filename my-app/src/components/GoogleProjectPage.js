@@ -7,10 +7,17 @@ import UserProfile from "./UserProfile";
 import logo from "../images/hhg-logo.png";
 import sitemap from "../images/sitemap.png";
 import wireframes from "../images/Wireframes.png";
+import secondWireframe from "../images/second-iteration-wireframe.png";
 import prototype from "../images/hhg-prototype.png";
 import { Link } from "react-router-dom";
-import userJourney from "../images/hhg-user-journey.png";
+import eduardoJourney from "../images/eduardo-user-journey.png";
 import designProcess from "../images/uxdesignprocess.png";
+import staziJourney from "../images/stazi-user-journey.png";
+import eduardo from "../images/Eduardo.png";
+import stazi from "../images/Stazi.png";
+
+
+
 
 export default function GoogleProjectPage() {
   return (
@@ -56,7 +63,7 @@ export default function GoogleProjectPage() {
         <div className="font-semibold text-2xl pt-8">User Research</div>
         <div className="font-light text-xl pt-3">Learning about our users through user interviews</div>
         <div className="pb-5 font-light pt-2">
-        It's so important to truly understand our users, so I took the time to conduct 5 user interviews with friends and random people to hear their opinions and ideas about the app. I really wanted to learn about what they would like to see, learn, and how the app would impact their lives. Some of the questions I asked were:          <ul className="list-disc">
+        It's so important to truly understand our users, so I took the time to conduct some user interviews with friends and random people to hear their opinions and ideas about the app. I really wanted to learn about what they would like to see, learn, and how the app would impact their lives. Some of the questions I asked were:          <ul className="list-disc">
             <li className="p-2 mt-4 italic">
               Do you use mobile apps?
             </li>
@@ -67,12 +74,9 @@ export default function GoogleProjectPage() {
               What would be the easiest most convienient way for you to learn about ways to reduce your risks?        </li>
           </ul>
         </div>
-
-        <UserProfile />
-        <UserProfile />
-        <UserProfile />
-        <UserProfile />
-        <UserProfile />
+        <UserProfile user={eduardo} name="Eduardo" age="59" occupation="Chef and new grandfather" background="Eduardo just had a new granddaughter and he wants to get in shape to be able to keep up with a busy new baby. He wants an easy way to do at home workouts and learn new ways he can make his heart more healthy. He's not the most tech savvy, but he loves the idea of having solutions right on his phone. Easy accessiblity." />
+        <UserProfile user={stazi} name="Stazi" age="31" occupation="Business owner and new mother of twins" background="Stazi is a business owner and a busy mother of newborn twins. On her downtime she wants to find a heart doctor to evaluate the heart palipatations she has been experiencing lately. A mobile app would be most convienient so she can research doctors and make appointments easily while her twins are sleeping. " />
+      
         <div className="font-semibold text-2xl pt-8">Competitive Analysis</div>
         <div className="pt-2 pb-5 font-light">
         Understanding the importance of competitive analysis in the research process is crucial because it allows us to evaluate our brand/company compared to our competitors. It helps us identify opportunities for improving our user experience (UX) and recognize areas for improvement. For instance, comparing the overall ease of using our interface or the time it takes to complete tasks in comparison to other similar apps. How can we make our design and user experience stand out from competitors?
@@ -89,39 +93,34 @@ export default function GoogleProjectPage() {
           <div className="font-semibold text-2xl pt-10">SiteMap / Architecture</div>
           <img src={sitemap} alt="sitemap" className="my-10" />
         </section>
+        <div className="font-semibold text-2xl pt-5">Wireframes</div>
+        
 
+        <div className="font-light text-xl pt-3 pb-5">First Iteration</div>
+        <img src={wireframes} alt="wireframes" />
         <section>
-          <div className="font-semibold text-2xl pt-5">Wireframes</div>
-          <div className="pb-5 font-light pt-2">
-            Some common questions to begin a UX competitive analysis are: Who is
-            currently trying to solve this problem? How are they trying to solve
-            the problem? What their main differentiator or unique value-add is
-            for their business and products Did anyone try to solve it in the
-            past and fail? Why did they fail? Heart Disease in America is out of
-            control. There are many initiatives, and organizations that offer
-            websites and apps to educate users, but who is offering solutions?
-            How can our app stand out?
-          </div>
-
-          <div className="font-light text-xl pt-3 pb-5">First Iteration</div>
-          <img src={wireframes} alt="wireframes" />
-          <section>
             <div className="font-light text-xl pt-3">User Testing / Ideation Phase</div>
             {/*     <div className="font-light text-xl pt-3">User Interviews</div>
  */}    <div className="pb-5 font-light pt-2">
               After the first ideation of wireframes were completed it was time to test them out on our potential users. I created a protoype of the low fidelity wireframes and observed as users navigated through the app and recorded their painpoints, and emotions with no interference.
             </div>
           </section>
-          <section>
+        <section>
             <div className="font-light text-xl pt-10">User Journey</div>
             <div className="font-light pt-3">The user journey is a recorded process to effectively capture the user's painpoints, and emotions while navigating the mobile application. The results of this will be applied to the next design iteration of the mobile wireframe.</div>
-            <img src={userJourney} alt="user-journey" className="rounded-3xl my-6" />
+            <img src={eduardoJourney} alt="user-journey" className="rounded-3xl my-6" />
+            <img src={staziJourney} alt="user-journey" className="rounded-3xl my-6" />
+
           </section>
+        <section>
+        
+       
+          
           <div className="font-light text-xl pt-3 pb-2">Second Iteration</div>
           <div className="pb-5 font-light pt-2">
             The painpoints identified in the user journey allowed me to go back in and fix the issues and produce a second iteration of the wireframe
           </div>
-          <img src={wireframes} alt="wireframes" />
+          <img src={secondWireframe} alt="wireframes" />
 
         </section>
         <section>
