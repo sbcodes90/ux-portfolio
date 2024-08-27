@@ -1,5 +1,4 @@
 import React from 'react'
-import user1 from "../images/user-1.png";
 
 function UserProfile({ user, name, age, occupation, background }) {
   return (
@@ -18,9 +17,9 @@ function UserProfile({ user, name, age, occupation, background }) {
     </div>
 {/* Desktop */}
 <div className='hidden md:block lg:block md:mt-10 lg:mt-10 md:mb-10 lg:mb-10'>
-  <div className='p-20 shadow-2xl mx-5 flex flex-col-2 rounded-3xl justify-around'>
-    <div><img src={user} alt='user-pic' className='w-full'/></div>
-    <div className='flex flex-col justify-between w-full'>
+  <div className='p-20 shadow-2xl mx-5 flex flex-col-2 rounded-3xl'>
+    <div className=''><img src={user} alt='user-pic' className=''/></div>
+    <div className='flex flex-col justify-center'>
     <div className='ml-10 p-2'><strong>Name:</strong>{name}</div>
     <div className='ml-10  p-2'><strong>Age:</strong>{' '}{age}</div>
     <div className='ml-10  p-2'><strong>Occupation:</strong>{' '}{occupation}</div>
@@ -30,7 +29,6 @@ function UserProfile({ user, name, age, occupation, background }) {
 
 </div>
 
-    
   </>
   );
 }

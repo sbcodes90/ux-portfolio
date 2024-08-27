@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "./Nav";
-import header from "../images/header.png";
 import mobilePics from "../images/hhg.png";
 import compAnalysis from "../images/ca.png";
 import UserProfile from "./UserProfile";
@@ -23,7 +22,6 @@ export default function GoogleProjectPage() {
   return (
     <>
       <div className="bg-rose-900 pb-10">
-        <img src={header} alt="header" className="w-full" />
         <Nav />
         <div id="container" className="flex flex-col items-center bg-white">
         
@@ -50,7 +48,7 @@ export default function GoogleProjectPage() {
       </div>
       <section className="mb-20 mx-12 lg:mx-72">
         <div className="font-semibold text-2xl pt-20">Problem Statement</div>
-        <div className="pb-5 font-light pt-3">Design a mobile app that will educate and provide solutions for users to decrease their risk for heart disease in the US.</div>
+        <div className="pb-5 font-light pt-3">Design a mobile app that will align users with politicans that match their needs and values. Why? Statistics show 80% of people do not know who is running for office, outside of presidential elections, and they do not know who represents them.</div>
         <img src={designProcess} alt="design-process" />
         <div className="font-semibold text-2xl pt-8">My Design Process</div>
 
