@@ -54,7 +54,6 @@ export default function Nav() {
         {/* DESKTOP VIEW */}
         <ul className="hidden lg:flex lg:flex-row lg:p-3">
           <div className="flex flex-row gap-10">
-            <li className="flex-1 tracking-widest">LOGO</li>
             <li className="tracking-widest">ABOUT</li>
             <Link to="/" className="tracking-widest" href="/work">
               WORK

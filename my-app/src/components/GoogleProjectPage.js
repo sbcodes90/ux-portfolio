@@ -21,7 +21,7 @@ import newLogo from "../images/new-hhg-logo.png";
 export default function GoogleProjectPage() {
   return (
     <>
-      <div className="bg-rose-900 pb-10">
+      <div className="bg-gradient-to-r from-rose-700 to-red-900 pb-10">
         <Nav />
         <div id="container" className="flex flex-col items-center bg-white">
         
@@ -137,14 +137,14 @@ export default function GoogleProjectPage() {
             </button>
           </div>
         </section>
-        <section>
+      
+      </section>
+      <section className="bg-gradient-to-r from-rose-700 to-red-900 text-white flex flex-col text-left px-72 py-32">
           <div className="font-semibold text-2xl pt-10">Reflection</div>
-          <div className="pb-5 font-light pt-2">
+          <div className="pb-5 font-semibold pt-2">
             This case study reiterated the importance of user testing and design iterations. There are so many things you may have forgotten about while designing. When the user interacts with the products and you can see their emotions and hear their painpoints it helps highlights things you may have missed. After all the user experience is all about the user.
           </div>
-
         </section>
-      </section>
     </>
   );
 }

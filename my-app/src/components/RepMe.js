@@ -1,18 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
-import header from "../images/header.png";
-import compAnalysis from "../images/ca.png";
+import compAnalysis from "../images/repme-compa.png";
 import UserProfile from "./UserProfile";
-//import logo from "../images/hhg-logo.png";
 import wireframes from "../images/repme-mobile-wireframe.png";
 import secondWireframe from "../images/repme-mobile-wireframe02.png";
 import prototype from "../images/repme-mobile-proto-screens.png";
 import { Link } from "react-router-dom";
-import eduardoJourney from "../images/eduardo-user-journey.png";
+import uj1 from "../images/repme-uj.png";
 import designProcess from "../images/uxdesignprocess.png";
-import staziJourney from "../images/stazi-user-journey.png";
-import eduardo from "../images/Eduardo.png";
-import stazi from "../images/Stazi.png";
 import logo from "../images/repmelogo2.png";
 import newLogo from "../images/rep-me-header.png";
 import screens from "../images/rep-me-screens.png";
@@ -20,15 +15,16 @@ import sitemap from "../images/site-map.png";
 import desktopPrototypes from "../images/repme-desktop-screens.png";
 import user1 from "../images/Angel.png";
 import user2 from "../images/Julian.png";
-
+import whiteLogo from "../images/white-repme-logo.png";
 export default function GoogleProjectPage() {
+    //bg-[#002142] 
   return (
     <>
       <Nav />
-      <div className="bg-[#002142] pb-10">
+      <div className="bg-gradient-to-r from-sky-900 to-blue-900 pb-10">
         <div className="flex flex-col items-center">
           <div className="flex flex-col justify-center items-center mt-20">
-            <img src={newLogo} alt="logo" />
+            <img src={whiteLogo} alt="logo" />
           </div>
           <div className="text-white font-light lg:text-xl mx-10 lg:mx-72 my-10 text-center">
             A mobile and desktop application designed to provide a easy and
@@ -176,15 +172,15 @@ export default function GoogleProjectPage() {
             iteration of the mobile wireframe.
           </div>
           <img
-            src={eduardoJourney}
+            src={uj1}
             alt="user-journey"
             className="rounded-3xl my-6"
           />
-          <img
+         {/*  <img
             src={staziJourney}
             alt="user-journey"
             className="rounded-3xl my-6"
-          />
+          /> */}
         </section>
         <section>
           <div className="font-light text-xl pt-3 pb-2">Second Iteration</div>
@@ -203,12 +199,11 @@ export default function GoogleProjectPage() {
             the actual completed prototype followed by a link to the actual
             Figma screens
           </div>
-          <iframe
-            title="hhg"
-            className="w-full h-screen"
-            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F36Yy6UuTzh1H36rXo7Ua8w%2FHeartHealthGlobal-Design-Files%3Fnode-id%3D11-6%26t%3DDo5qr26Ihe5jK4iM-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D7%253A5%26starting-point-node-id%3D11%253A6"
-            allowfullscreen
-          />
+          <iframe title="represent-me"
+          className="w-full h-screen" 
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVetxZoESMctDc8QfnFCRr6%2FRepresentMe-App%3Fnode-id%3D32-476%26t%3DAvxyjRlTAXfYMV6f-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D32%253A475" 
+          allowfullscreen>
+          </iframe>
           <div className="font-light text-xl pt-20 pb-5">
             Mobile Figma Screens:
           </div>
@@ -251,12 +246,8 @@ export default function GoogleProjectPage() {
         <section>
           <div className="font-semibold text-2xl pt-10">Reflection</div>
           <div className="pb-5 font-light pt-2">
-            This case study reiterated the importance of user testing and design
-            iterations. There are so many things you may have forgotten about
-            while designing. When the user interacts with the products and you
-            can see their emotions and hear their painpoints it helps highlights
-            things you may have missed. After all the user experience is all
-            about the user.
+
+          This case study involved designing for mobile and desktop screens, including a login and sign-up process. Throughout each design iteration, and based on the user journey results, I identified the pain points and opportunities. This guided me in determining the necessary screens to enhance the user flow and make it more intuitive. Ultimately, the design process revolves around empathizing with the user and addressing their needs.
           </div>
         </section>
       </section>
