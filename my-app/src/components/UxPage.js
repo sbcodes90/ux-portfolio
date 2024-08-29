@@ -5,6 +5,7 @@ import  Nav  from "../components/Nav";
 import { Link } from 'react-router-dom';
 import whiteLogo from "../images/white-repme-logo.png";
 import screens from "../images/rep-me-screens.png";
+import siemensScreens from "../images/siemens-screens.png";
 
 export default function UxPage() {
   return (
@@ -27,7 +28,7 @@ export default function UxPage() {
             </div>
           </section>
           <section>
-        <div className="bg-gradient-to-r from-indigo-900 to-blue-800 pb-10 items-center md:grid md:grid-cols-2 sm:py-16 lg:rounded-3xl">
+        <div className="bg-gradient-to-r from-indigo-900 to-blue-800 pb-10 items-center md:grid md:grid-cols-2 sm:py-16 lg:rounded-3xl mb-10">
               <div className=" hidden lg:block ml-28 md:pt-20 ">
                 <h2 className="px-10 mb-4  text-2xl lg:text-3xl tracking-tight font-extrabold text-white">RepresentMe </h2>
                 <p className=" px-10 mb-6 font-medium text-white md:text-lg">A mobile app that helps users identify political candidates whose policies align with their own values, and provides info on upcoming elections. </p>
@@ -52,13 +53,15 @@ export default function UxPage() {
               </div>
             </div>
           </section>
-          <section>
+          <section className='bg-gradient-to-r from-teal-400 to-teal-600 rounded-3xl py-20'>
         <div className="gap-8 items-center  px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-          <img className="w-full" src={hhg} alt="mobile-app" />
+          <img className="w-full" src={siemensScreens} alt="siemens-screens" />
               <div className="mt-4 md:mt-0">
-                <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Siemens Healthineers</h2>
-                <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-                The original global contact page led you to a map of the world where you would select the country on the map and it would produce a long list of countries in a drop down box, which required lots of scrolling to get to your selected country.
+                <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-white">Siemens Healthineers</h2>
+                <p className="mb-6 font-medium text-white">
+                Case study: No More Endless Scrolling! <br></br>
+                Problem:
+                Solution:
                 </p>
                 <Link to="siemens-case-study" className="inline-flex items-center text-white bg-black hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                   View Project
