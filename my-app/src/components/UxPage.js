@@ -14,7 +14,7 @@ export default function UxPage() {
 
     <header className="bg-black w-full text-white lg:text-5xl text-3xl tracking-tight text-center mr-5 font-light p-10 lg:p-20">UX DESIGN PROJECTS</header>
     <div className='bg-slate-50 lg:p-20'>
-      <section className='bg-gradient-to-r from-rose-700 to-red-900 py-5 lg:rounded-3xl lg:mb-10 shadow-lg'>
+      <section className='bg-gradient-to-r from-rose-700 to-red-900 py-20 lg:rounded-3xl lg:mb-10 shadow-lg'>
         <div className="gap-8 items-center  px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
         <img className="w-full" src={hhg} alt="mobile-app" />
         <div className="mt-4 md:mt-0">
@@ -28,7 +28,7 @@ export default function UxPage() {
             </div>
           </section>
           <section>
-        <div className="bg-gradient-to-r from-indigo-900 to-blue-800 pb-10 items-center md:grid md:grid-cols-2 sm:py-16 lg:rounded-3xl mb-10">
+        <div className="bg-gradient-to-r from-indigo-900 to-blue-800 items-center md:grid md:grid-cols-2 py-14 lg:rounded-3xl lg:mb-10">
               <div className=" hidden lg:block ml-28 md:pt-20 ">
                 <h2 className="px-10 mb-4  text-2xl lg:text-3xl tracking-tight font-extrabold text-white">RepresentMe </h2>
                 <p className=" px-10 mb-6 font-medium text-white md:text-lg">A mobile app that helps users identify political candidates whose policies align with their own values, and provides info on upcoming elections. </p>
@@ -53,10 +53,10 @@ export default function UxPage() {
               </div>
             </div>
           </section>
-          <section className='bg-gradient-to-r from-teal-400 to-teal-600 rounded-3xl py-20'>
+          <section className='bg-gradient-to-r from-teal-400 to-teal-600 lg:rounded-3xl py-20'>
         <div className="gap-8 items-center  px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <img className="w-full" src={siemensScreens} alt="siemens-screens" />
-              <div className="mt-4 md:mt-0">
+              <div className="mt-4 md:mt-0 ml-10">
                 <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-white">Siemens Healthineers</h2>
                 <p className="mb-6 font-medium text-white">
                 Case study: No More Endless Scrolling! <br></br>
