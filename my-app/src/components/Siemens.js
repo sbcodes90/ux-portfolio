@@ -3,11 +3,11 @@ import Nav from "./Nav";
 import compAnalysis from "../images/repme-compa.png";
 import { Link } from "react-router-dom";
 import uj1 from "../images/repme-uj.png";
-import designProcess from "../images/uxdesignprocess.png";
 import screens from "../images/rep-me-screens.png";
 import prototype from "../images/siemens-prototype.png";
 import logo from "../images/Siemens-logo.png";
 import desktopLogo from "../images/siemens-desktop.png";
+import siemensScreens from "../images/siemens-screens.png";
 
 export default function GoogleProjectPage() {
   return (
@@ -26,7 +26,7 @@ export default function GoogleProjectPage() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-white">
-          <img src={screens} alt="test" />
+          <img src={siemensScreens} alt="test" />
         </div>
         <section className="items-start mx-10 lg:mx-60 px-12 py-14 bg-white shadow-2xl rounded-3xl mb-10">
           <div className="font-bold text-lg">Client:</div>
