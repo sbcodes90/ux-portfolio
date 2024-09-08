@@ -3,13 +3,13 @@ import Nav from "./Nav";
 import compAnalysis from "../images/repme-compa.png";
 import { Link } from "react-router-dom";
 import uj1 from "../images/repme-uj.png";
-import screens from "../images/rep-me-screens.png";
 import prototype from "../images/siemens-prototype.png";
 import logo from "../images/Siemens-logo.png";
 import desktopLogo from "../images/siemens-desktop.png";
 import siemensScreens from "../images/siemens-screens.png";
 
 export default function GoogleProjectPage() {
+
   return (
     <>
       <Nav />
@@ -18,21 +18,18 @@ export default function GoogleProjectPage() {
           <div className="flex flex-col justify-center items-center mt-20">
             <img src={logo} alt="logo" />
           </div>
-          <div className="text-black font-light lg:text-xl mx-10 lg:mx-72 my-10 text-center">
-            Siemen's Healthineers is a global company with offices located
-            around the world. For their Contact page, on their global website,
-            they wanted a quicker more efficient way for the user to find
-            contact information for a specific site.
+          <div className="text-black font-light lg:text-xl mx-10 lg:mx-80 my-10 text-center">
+          Siemen's Healthineers is a global company with offices located around the world. For their Contact page, on their global website, they wanted a quicker more efficient way for the user to find contact information for a specific site.
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-white">
           <img src={siemensScreens} alt="test" />
         </div>
-        <section className="items-start mx-10 lg:mx-60 px-12 py-14 bg-white shadow-2xl rounded-3xl mb-10">
+        <section className="items-start mx-10 lg:mx-60 px-12 py-10 bg-orange-500 shadow-2xl rounded-3xl lg:mb-10 mt-10">
           <div className="font-bold text-lg">Client:</div>
           <div className="pb-5 font-light">Siemens Healthineers</div>
           <div className="font-bold text-lg">Timeline</div>
-          <div className="pb-5 font-light">April 2024 - July 2024</div>
+          <div className="pb-5 font-light">December 2019 - March 2021</div>
           <div className="font-bold text-lg">Role</div>
           <div className="pb-5 font-light">UX Designer and Developer</div>
           <div className="font-bold text-lg">Tools</div>
@@ -43,48 +40,10 @@ export default function GoogleProjectPage() {
       <section className="mb-20 mx-12 lg:mx-72">
         <div className="font-semibold text-2xl">Problem Statement</div>
         <div className="pb-5 font-light pt-3">
-          The original global contact page led you to a map of the world where
-          you would select the country on the map and it would produce a long
-          list of countries in a drop down box, which required lots of scrolling
-          to get to your selected country.
-        </div>
-        
-        <div className="font-semibold text-2xl pt-8">Stage 1: Empathize</div>
+        The original global contact page showcased a interactive world map that exhibited the company's global office locations. Users had the option to select a continent, which would then reveal a list of countries within that continent. Subsequently, they could scroll to locate the specific country they intended to contact. Regrettably, this process proved to be cumbersome for users, leading to dissatisfaction among our customers and clients. Consequently, my manager sought my input for potential enhancements to address these concerns.   </div>     
+        <div className="font-semibold text-2xl pt-8">Research Analysis</div>
         <div className="pb-5 font-light pt-2">
-          Understanding and relating to other people is the first step in the
-          design thinking process. During this stage, I do research to really
-          understand what our users need. I try to put aside any preconceived
-          ideas I might have and instead focus on learning from the users
-          themselves. This helps me understand their experiences, what drives
-          them, and what challenges they face.{" "}
-        </div>
-        <div className="font-semibold text-2xl pt-8">User Research</div>
-        <div className="font-light text-xl pt-3">Surveys </div>
-        <div className="pb-5 font-light pt-2">
-          It's so important to truly understand our users, so I took the time to
-          conduct some user interviews with friends and random people to hear
-          their opinions and ideas about the app. I really wanted to learn about
-          what they would like to see, learn, and how the app would impact their
-          lives. Some of the questions I asked were:{" "}
-          <ul className="list-disc">
-            <li className="p-2 mt-4 italic">Do you use mobile apps?</li>
-            <li className="p-2 italic">
-              Do you participate in federal and state elections?
-            </li>
-            <li className="p-2 italic">
-              Do you know who is running for office in your area?
-            </li>
-            <li className="p-2 italic">
-              What political values/stances/policies are most important to you?
-            </li>
-            <li className="p-2 italic">
-              What changes if any would you like to see made in our governement?
-            </li>
-            <li className="p-2 italic">
-              Are you happy with the current state of our government?{" "}
-            </li>
-          </ul>
-        </div>
+        Infinite scrolling can be a hassle for users. Imagine having to scroll through a long list of countries to find one starting with the letter "Z"! To improve this, it's best to avoid using drop-down menus with more than 10 or fewer than 5 options, based on UX design principles. This way, we can make the experience more user-friendly. </div>
 
         <div className="font-semibold text-2xl pt-8">Competitive Analysis</div>
         <div className="pt-2 pb-5 font-light">
